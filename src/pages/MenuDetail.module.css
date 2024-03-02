@@ -1,0 +1,65 @@
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #555;
+}
+
+.description {
+  margin-top: 10px;
+  color: #666;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.type {
+  font-size: 18px;
+  margin-top: 20px;
+  font-style: italic;
+  color: #444;
+}
+
+.price {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
